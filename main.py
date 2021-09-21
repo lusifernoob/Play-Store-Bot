@@ -24,7 +24,7 @@ async def filter_all(bot, update):
     reply_markup = InlineKeyboardMarkup(
         [
             [InlineKeyboardButton(text="𝘚𝘦𝘢𝘳𝘤𝘩 𝘩𝘦𝘳𝘦", switch_inline_query_current_chat="")],
-            [InlineKeyboardButton(text="𝓢𝓮𝓪𝓻𝓬𝓱 𝓲𝓷 𝓪𝓷𝓸𝓽𝓱𝓮𝓻 𝓬𝓱𝓪𝓽", switch_inline_query="")]
+            [InlineKeyboardButton(text="𝚂𝚎𝚊𝚛𝚌𝚑 𝚒𝚗 𝚊𝚗𝚘𝚝𝚑𝚎𝚛 𝚌𝚑𝚊𝚝", switch_inline_query="")]
         ]
     )
     await update.reply_text(
@@ -49,9 +49,9 @@ async def search(bot, update):
         "**Price:** `{}`".format(result["price"]) + "\n" \
         "**Full Price:** `{}`".format(result["full_price"]) + "\n" \
         "**Free:** `{}`".format(result["free"]) + "\n" \
-        "\n" + "𝐉𝐨𝐢𝐧 @OMG_info"
+        "\n" + "𝐉𝐨𝐢𝐧 [𝐎𝐌𝐆 𝐈𝐍𝐅𝐎](https://t.me/OMG_info)"
         reply_markup = InlineKeyboardMarkup(
-            [[InlineKeyboardButton(text="🅟🅛🅐🅨 🅢🅣🅞🅡🅔", url="https://play.google.com"+result["url"])]]
+            [[InlineKeyboardButton(text="𝗣𝗹𝗮𝘆 𝗦𝘁𝗼𝗿𝗲", url="https://play.google.com"+result["url"])]]
         )
         try:
             answers.append(
