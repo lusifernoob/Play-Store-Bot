@@ -20,11 +20,11 @@ Bot = Client(
 
 @Bot.on_message(filters.private & filters.all)
 async def filter_all(bot, update):
-    text = "Search play store apps using below buttons.\n\nMade by @shado_hackers"
+    text = "𝚂𝚎𝚊𝚛𝚌𝚑 𝚙𝚕𝚊𝚢 𝚜𝚝𝚘𝚛𝚎 𝚊𝚙𝚙𝚜 𝚞𝚜𝚒𝚗𝚐 𝚋𝚎𝚕𝚘𝚠 𝚋𝚞𝚝𝚝𝚘𝚗𝚜.\n\n𝗠𝗮𝗱𝗲 𝗯𝘆 @shado_hackers"
     reply_markup = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="Search here", switch_inline_query_current_chat="")],
-            [InlineKeyboardButton(text="Search in another chat", switch_inline_query="")]
+            [InlineKeyboardButton(text="𝘚𝘦𝘢𝘳𝘤𝘩 𝘩𝘦𝘳𝘦", switch_inline_query_current_chat="")],
+            [InlineKeyboardButton(text=𝓢𝓮𝓪𝓻𝓬𝓱 𝓲𝓷 𝓪𝓷𝓸𝓽𝓱𝓮𝓻 𝓬𝓱𝓪𝓽", switch_inline_query="")]
         ]
     )
     await update.reply_text(
@@ -49,9 +49,9 @@ async def search(bot, update):
         "**Price:** `{}`".format(result["price"]) + "\n" \
         "**Full Price:** `{}`".format(result["full_price"]) + "\n" \
         "**Free:** `{}`".format(result["free"]) + "\n" \
-        "\n" + "Made by @FayasNoushad"
+        "\n" + "𝐉𝐨𝐢𝐧 @OMG_info"
         reply_markup = InlineKeyboardMarkup(
-            [[InlineKeyboardButton(text="Play Store", url="https://play.google.com"+result["url"])]]
+            [[InlineKeyboardButton(text="🅟🅛🅐🅨 🅢🅣🅞🅡🅔", url="https://play.google.com"+result["url"])]]
         )
         try:
             answers.append(
