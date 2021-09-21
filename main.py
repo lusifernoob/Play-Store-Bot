@@ -20,7 +20,7 @@ Bot = Client(
 
 @Bot.on_message(filters.private & filters.all)
 async def filter_all(bot, update):
-    text = "Search play store apps using below buttons.\n\nMade by @FayasNoushad"
+    text = "Search play store apps using below buttons.\n\nMade by @shado_hackers"
     reply_markup = InlineKeyboardMarkup(
         [
             [InlineKeyboardButton(text="Search here", switch_inline_query_current_chat="")],
