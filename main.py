@@ -49,7 +49,7 @@ async def search(bot, update):
         "**Price:** `{}`".format(result["price"]) + "\n" \
         "**Full Price:** `{}`".format(result["full_price"]) + "\n" \
         "**Free:** `{}`".format(result["free"]) + "\n" \
-        "\n" + "𝐉𝐨𝐢𝐧 [𝐎𝐌𝐆 𝐈𝐍𝐅𝐎](https://t.me/OMG_info)"
+        "\n" + "𝐉𝐨𝐢𝐧 [𝐎𝐌𝐆 𝐈𝐍𝐅𝐎](https://t.me/OMG_info)丨[𝐅𝐨𝐥𝐥𝐨𝐰](https://mobile.twitter.com/Lusifer_noob)"
         reply_markup = InlineKeyboardMarkup(
             [[InlineKeyboardButton(text="𝗣𝗹𝗮𝘆 𝗦𝘁𝗼𝗿𝗲", url="https://play.google.com"+result["url"])]]
         )
