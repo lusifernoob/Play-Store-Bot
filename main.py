@@ -24,7 +24,7 @@ async def filter_all(bot, update):
     reply_markup = InlineKeyboardMarkup(
         [
             [InlineKeyboardButton(text="𝘚𝘦𝘢𝘳𝘤𝘩 𝘩𝘦𝘳𝘦", switch_inline_query_current_chat="")],
-            [InlineKeyboardButton(text=𝓢𝓮𝓪𝓻𝓬𝓱 𝓲𝓷 𝓪𝓷𝓸𝓽𝓱𝓮𝓻 𝓬𝓱𝓪𝓽", switch_inline_query="")]
+            [InlineKeyboardButton(text="𝓢𝓮𝓪𝓻𝓬𝓱 𝓲𝓷 𝓪𝓷𝓸𝓽𝓱𝓮𝓻 𝓬𝓱𝓪𝓽", switch_inline_query="")]
         ]
     )
     await update.reply_text(
